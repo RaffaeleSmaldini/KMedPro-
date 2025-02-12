@@ -130,7 +130,7 @@ git clone https://github.com/RaffaeleSmaldini/kMedPro-.git
 ---
 ## **📚 References**
 1. [Medical Segmentation Decathlon Dataset](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2)
-2. [Isolation of Prostate Gland in T1-Weighted Magnetic Resonance Images using Computer Vision](https://ieeexplore.ieee.org/document/)
+2. [Isolation of Prostate Gland in T1-Weighted Magnetic Resonance Images using Computer Vision](https://ieeexplore.ieee.org/document/9070912)
 3. [Detection of tumours from MRI scans using Segmentation techniques](https://ieeexplore.ieee.org/document/9532867)
 4. [Segmentation of rectum from CT images using K-means clustering for the EBRT of prostate cancer](https://ieeexplore.ieee.org/document/7955181)
 5. [Nature Article](https://www.nature.com/articles/s41467-022-30695-9#Sec2)
