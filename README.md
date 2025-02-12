@@ -7,7 +7,7 @@ Advanced 3D segmentation for prostate tumor detection using KMedROI, KMeans, and
 🚀 **Enhancing prostate cancer detection using advanced segmentation techniques!**  
 
 ## **📌 Overview**  
-ProSegNet is an advanced **3D segmentation pipeline** for **prostate tumor detection** using **multiparametric MRI scans**. This project integrates **KMedROI**, **KMeans clustering**, and **Otsu thresholding** to enhance accuracy over traditional segmentation methods like **Otsu and Watershed**.  
+kMedPro- is an advanced **3D segmentation pipeline** for **prostate tumor detection** using **multiparametric MRI scans**. This project integrates **KMedROI**, **KMeans clustering**, and **Otsu thresholding** to enhance accuracy over traditional segmentation methods like **Otsu and Watershed**.  
 
 ✅ **Key Features:**  
 - Hybrid **KMedROI + Clustering** for improved tumor detection  
