@@ -69,7 +69,7 @@ The dataset consists of **48 prostate mpMRI studies** (T2-weighted & ADC sequenc
 
 ---
 
-## **📈 Results**
+## **📈 Test Results with Heuristic**
 | Model                | IoU (Dense Slice) | Avg IoU | Dice (Dense Slice) | Avg Dice |
 |----------------------|-----------------|--------|-------------------|--------|
 | Otsu                | 0.2750          | 0.4774 | 0.4148            | 0.4678 |
@@ -77,12 +77,17 @@ The dataset consists of **48 prostate mpMRI studies** (T2-weighted & ADC sequenc
 | **KMedROI + KMeans** | **0.5125**      | **0.7169** | **0.6573**      | **0.6964** |
 | KMedROI + Otsu      | 0.4113          | 0.5954 | 0.5699            | 0.5814 |
 
+### *MEDICAL CHALLENGE RESULTS*
+![Table 8 Medical Decathlon Results](https://github.com/RaffaeleSmaldini/kMedPro-/blob/main/AboutProstate/MedicalChallenge_table8.png)
+
 🚀 **Findings:**  
 - **KMedROI + KMeans achieves the highest accuracy**  
 - **Otsu struggles** with complex prostate structures  
 - **Watershed is noise-sensitive** but effective  
-- **KMedROI significantly improves segmentation by focusing on tumor regions**  
-
+- **KMedROI significantly improves segmentation by focusing on tumor regions**
+### *Densest slice segmentation Subject 2*
+![Segmentation Densest Slice Only](https://github.com/RaffaeleSmaldini/kMedPro-/blob/main/SegmentationSUB2.png)
+*run our algorithm to observe the 3D DSC results*
 ---
 
 ## **📥 Installation**
@@ -128,4 +133,7 @@ git clone https://github.com/YourUsername/ProSegNet.git
 2. [Isolation of Prostate Gland in T1-Weighted Magnetic Resonance Images using Computer Vision](https://ieeexplore.ieee.org/document/)
 3. [Detection of tumours from MRI scans using Segmentation techniques](https://ieeexplore.ieee.org/document/9532867)
 4. [Segmentation of rectum from CT images using K-means clustering for the EBRT of prostate cancer](https://ieeexplore.ieee.org/document/7955181)
+5. [Nature Article](https://www.nature.com/articles/s41467-022-30695-9#Sec2)
+6. [All challenges results](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-30695-9/MediaObjects/41467_2022_30695_MOESM1_ESM.pdf)
+7. [Medical Decathlon general link](http://medicaldecathlon.com/)
 ---
