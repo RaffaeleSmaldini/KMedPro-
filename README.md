@@ -31,7 +31,7 @@ The dataset consists of **48 prostate mpMRI studies** (T2-weighted & ADC sequenc
 2. **Watershed Segmentation**: Region-based technique treating images as topographic surfaces  
 
 ### **🔹 Proposed Hybrid Model**  
-1. **KMedROI (K-Median Region of Interest)**:  
+1. **KMedROI (K-Means density-based slice wise Region of Interest)**:  
    - **Eliminates irrelevant structures** to focus on the tumor  
    - **Refines ROI** for improved segmentation  
 2. **KMedROI + KMeans**:  
