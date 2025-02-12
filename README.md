@@ -93,7 +93,7 @@ The dataset consists of **48 prostate mpMRI studies** (T2-weighted & ADC sequenc
 ## **📥 Installation**
 ### **🔧 Requirements**
 - **MATLAB (Recommended)**
-- **Python (Optional for visualization)**
+- **Python (we plan to re-write the whole project in python)**
 - **Required Libraries**:
   - Image Processing Toolbox
   - Statistics and Machine Learning Toolbox
