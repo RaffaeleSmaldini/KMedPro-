@@ -101,7 +101,7 @@ The dataset consists of **48 prostate mpMRI studies** (T2-weighted & ADC sequenc
 ### **💻 Setup**
 1.
 ```bash
-git clone https://github.com/YourUsername/ProSegNet.git
+git clone https://github.com/YourUsername/kMedPro-.git
 ```
 2. Open MATLAB Online and set the project directory.
 3. Download the dataset from [Medical Segmentation Decathlon Dataset](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2). (If you want to reproduce the experiment, download the Prostate Dataset)
