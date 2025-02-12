@@ -137,3 +137,10 @@ git clone https://github.com/RaffaeleSmaldini/kMedPro-.git
 6. [All challenges results](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-022-30695-9/MediaObjects/41467_2022_30695_MOESM1_ESM.pdf)
 7. [Medical Decathlon general link](http://medicaldecathlon.com/)
 ---
+
+## Citing Our Work :+1: 
+
+If you use our work or code in your research, please cite our repository:
+
+1. [RaffaeleSmaldini/kMedPro-](https://github.com/RaffaeleSmaldini/kMedPro-)
+2. [github.com/MicheleArdillo](https://github.com/MicheleAdillo)
