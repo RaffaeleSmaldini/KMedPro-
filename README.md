@@ -57,7 +57,8 @@ The dataset consists of **48 prostate mpMRI studies** (T2-weighted & ADC sequenc
 ### **3️⃣ Post-processing**  
 - **Morphological operations** (filling gaps, removing noise)  
 - **Active Contour Refinement**  
-
+#### **Given the mode of the supported project, each pipeline was found empirically through experiments; 
+We propose a more complex approach via grid search to choose the order of the "blocks" (transformation and filters), followed by a further grid search for their parameters.**  
 ---
 
 ## **📊 Evaluation Metrics**  
